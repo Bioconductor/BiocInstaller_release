@@ -1,10 +1,10 @@
 ## The following values are updated with each Bioc release; see .onLoad
 BIOC_VERSION <- package_version("2.14")    # Bioc version for this package
 R_VERSION <- package_version("3.1.0")      # R version for this package
-IS_USER <- TRUE                            # TRUE if this version of
+IS_USER <- FALSE                           # TRUE if this version of
                                            # Bioconductor is the
                                            # current release version
-IS_END_OF_LIFE <- FALSE                    # TRUE if this version of
+IS_END_OF_LIFE <- TRUE                     # TRUE if this version of
                                            # Bioconductor is no longer
                                            # the release version
 
@@ -13,7 +13,7 @@ IS_UPGRADEABLE <- TRUE                     # TRUE if a more recent
                                            # devel) of Bioconductor is
                                            # available for this
                                            # version of R
-UPGRADE_IS_DEVEL <- TRUE                   # TRUE if UPGRADE_VERSION
+UPGRADE_IS_DEVEL <- FALSE                  # TRUE if UPGRADE_VERSION
                                            # is for devel use only
 IS_DOWNGRADEABLE <- FALSE                  # TRUE if an older version
                                            # (release or devel) of
@@ -22,7 +22,7 @@ IS_DOWNGRADEABLE <- FALSE                  # TRUE if an older version
 UPGRADE_VERSION <- package_version("3.0")  # Bioconductor version for
                                            # upgrade, if
                                            # IS_UPGRADEABLE == TRUE
-DOWNGRADE_VERSION <- package_version("2.14") # Bioconductor verson for
+DOWNGRADE_VERSION <- package_version("2.14") # Bioconductor version for
                                            # downgrade, if
                                            # IS_DOWNGRADEABLE == # TRUE
 
